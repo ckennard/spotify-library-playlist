@@ -1,7 +1,7 @@
 # Spotify Library Playlist Create/Update Script
 
 ## Description
-This script updates a specific Spotify playlist ("My Library") based on the user's liked songs and tracks from liked albums. It ensures that the playlist reflects the current state of the user's likes, adding new tracks and removing those that are no longer liked.
+Since Spotify has not yet implemented the ability to shuffle both your liked songs and songs from liked albums in one large "Library" shuffle, I developed this script. This script updates a specific Spotify playlist ("My Library") based on the user's liked songs and tracks from liked albums. It ensures that the playlist reflects the current state of the user's likes, adding new tracks and removing those that are no longer liked.
 
 ## Requirements
 - Python 3.x
