@@ -1,6 +1,4 @@
-# spotify-library-playlist
-
-# Spotify Playlist Update Script
+# Spotify Library Playlist Create/Update Script
 
 ## Description
 This script updates a specific Spotify playlist ("My Library") based on the user's liked songs and tracks from liked albums. It ensures that the playlist reflects the current state of the user's likes, adding new tracks and removing those that are no longer liked.
