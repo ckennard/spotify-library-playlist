@@ -1,0 +1,15 @@
+[project]
+name = "spotify-liked-tracks"
+version = "0.1.0"
+description = "Your project description"
+authors = [{ name = "Chris Kennard" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["spotipy==2.22.1"]
+
+[project.scripts]
+spotify-liked-tracks = "spotify_liked_tracks:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
