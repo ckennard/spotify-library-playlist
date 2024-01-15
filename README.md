@@ -51,4 +51,7 @@ Run the script from the command line, providing the necessary arguments. For exa
 python spotify_liked_tracks.py --client_id YOUR_SPOTIFY_CLIENT_ID --client_secret YOUR_SPOTIFY_CLIENT_SECRET
 ```
 
-Replace `YOUR_SPOTIFY_CLIENT_ID` and `YOUR_SPOTIFY_CLIENT_SECRET` with your actual Spotify Developer application credentials.
+### Install binary with pipx
+```bash
+pipx install git+https://github.com/ckennard/spotify-library-playlist
+```
