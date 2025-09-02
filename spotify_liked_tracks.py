@@ -139,11 +139,6 @@ while results["next"]:
 tracks_to_add = all_track_ids - playlist_tracks
 tracks_to_remove = playlist_tracks - all_track_ids
 
-# Limit the number of tracks to add to 10,000 due to Spotify's playlist limit
-if len(tracks_to_add) > 10000:
-    print(f"Limiting the number of tracks to add to 10,000 due to Spotify's playlist limit.")
-    tracks_to_add = set(list(tracks_to_add)[:10000])
-
 # Remove tracks no longer liked
 tracks_to_remove = list(tracks_to_remove)
 for i in range(0, len(tracks_to_remove), 100):
